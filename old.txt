@@ -1,0 +1,11 @@
+goos: windows
+goarch: amd64
+pkg: sb3/level6
+cpu: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+BenchmarkGeneratePrimesOld-8   	 1546249	       723.6 ns/op
+BenchmarkGeneratePrimesOld-8   	 1550025	      1227 ns/op
+BenchmarkGeneratePrimesOld-8   	  887179	      1539 ns/op
+BenchmarkGeneratePrimesOld-8   	  886596	      1290 ns/op
+BenchmarkGeneratePrimesOld-8   	  823214	      1280 ns/op
+PASS
+ok  	sb3/level6	8.383s
